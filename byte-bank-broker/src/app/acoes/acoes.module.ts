@@ -1,3 +1,4 @@
+import { PoModule } from '@po-ui/ng-components';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -12,7 +13,8 @@ import { CardAcoesComponent } from './card-acoes/card-acoes.component';
   imports: [
     CommonModule,
     AcoesRoutingModule,
-    SharedModule
+    SharedModule,
+    PoModule
   ]
 })
 export class AcoesModule { }
